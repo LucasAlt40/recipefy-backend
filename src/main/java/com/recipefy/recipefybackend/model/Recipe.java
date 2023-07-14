@@ -22,6 +22,8 @@ public class Recipe {
     private String ingredients;
     private String timeToDo;
     private Integer amount;
-    private String authorName;
     private String howToDo;
+    @Column(name = "author_id")
+    private Integer authorId;
+
 }
